@@ -25,7 +25,7 @@ Below 3 ways can be used to run the application
 - Build the application image using "docker build -t anz/accounts ." and spin up the container using "docker run -p 8080:8080 anz/accounts"
 
 ### Application APIs 
-After running the application, APIs documentation can be access using below URLs
+After running the application, APIs documentation can be accessed using below URLs
 - http://localhost:8080/v2/api-docs
 - http://localhost:8080/swagger-ui/#
 
@@ -33,8 +33,8 @@ After running the application, APIs documentation can be access using below URLs
 To support the API calls data will be loaded automatically from "accounts\src\main\resources\data.sql" into H2 database on starting the application
 
 There are 2 APIs (mentioned below) to get the accounts and transactions data from the application
-GET /customers/{customerID}/accounts
-GET /customers/{customerID}/accounts/{accountNumber}/transactions
+- GET /customers/{customerID}/accounts
+- GET /customers/{customerID}/accounts/{accountNumber}/transactions
 
 Below sample data can be used for the testing:
 Customer Ids = 121, 122, 123
