@@ -25,7 +25,7 @@ Below 3 ways can be used to run the application
 - Build the application image using "docker build -t anz/accounts ." and spin up the container using "docker run -p 8080:8080 anz/accounts"
 
 ### Application APIs 
-After running the application, APIs can be access using below URLs
+After running the application, APIs documentation can be access using below URLs
 - http://localhost:8080/v2/api-docs
 - http://localhost:8080/swagger-ui/#
 
