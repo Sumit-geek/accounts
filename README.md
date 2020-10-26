@@ -16,13 +16,13 @@
 - Run application as "Spring Boot Application"
 
 ### Steps to run the application using cmd prompt
-Below 2 ways can be used to run the application
+Below 3 ways can be used to run the application
 
-1. Go to the project directory and run "mvn spring-boot:run" cmd
+- Go to the project directory and run "mvn spring-boot:run" cmd
 
-2. Build the project using "mvn clean install" and go to "./target" directory and run "java -jar accounts-0.0.1-SNAPSHOT.jar" cmd
+- Build the project using "mvn clean install" and go to "./target" directory and run "java -jar accounts-0.0.1-SNAPSHOT.jar" cmd
 
-3. Build the application image using "docker build -t anz/accounts ." and spin up the container using "docker run -p 8080:8080 anz/accounts"
+- Build the application image using "docker build -t anz/accounts ." and spin up the container using "docker run -p 8080:8080 anz/accounts"
 
 ### Application APIs 
 After running the application, APIs can be access using below URLs
