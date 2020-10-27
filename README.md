@@ -41,6 +41,6 @@ Customer Ids = 121, 122, 123
 Account numbers = 1232223212, 1232223213, 1232223214, 1232223215, 1232223216.
 
 Here are few examples to access accounts and transactions data:
-curl http://localhost:8080/customers/123/accounts - will return all the accounts for customer ID - 123
-curl http://localhost:8080/customers/123/accounts/1232223212/transactions - will return all the transactions for the account 1232223212 for customer ID 123
+- curl http://localhost:8080/customers/123/accounts - will return all the accounts for customer ID - 123
+- curl http://localhost:8080/customers/123/accounts/1232223212/transactions - will return all the transactions for the account 1232223212 for customer ID 123
 
